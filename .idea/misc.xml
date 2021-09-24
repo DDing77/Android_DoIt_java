@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3640625" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout-v21/activity_main.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/activity_menu.xml" value="0.34791666666666665" />
+        <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/gravity.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/practice01.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/practice02.xml" value="0.34791666666666665" />
         <entry key="..\:/Users/User/Desktop/StudyAndroid/Doit/app/src/main/res/layout/sample_contrain_layout.xml" value="0.34791666666666665" />
