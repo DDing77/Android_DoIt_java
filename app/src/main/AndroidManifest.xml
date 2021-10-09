@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
         <activity
-            android:name=".SampleDrawable"
+            android:label="메뉴 액티비티"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:name=".MenuActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".SampleIntent"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,15 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity-->
-<!--            android:name=".LayoutCodeActivity"-->
-<!--            android:exported="true">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-<!--        </activity>-->
     </application>
 
 </manifest>
