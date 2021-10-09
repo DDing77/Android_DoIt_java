@@ -32,6 +32,7 @@ public class SampleEvent extends AppCompatActivity {
         textView = findViewById(R.id.textView);
 
         View view = findViewById(R.id.view);
+
         view.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
