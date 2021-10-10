@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
         <activity
-            android:label="메뉴 액티비티"
-            android:theme="@style/Theme.AppCompat.Dialog"
             android:name=".MenuActivity2"
-            android:exported="true" />
+            android:exported="true"
+            android:label="메뉴 액티비티"
+            android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name=".SampleIntent"
+            android:name=".SampleCallIntent"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true">
             <intent-filter>
