@@ -2,6 +2,7 @@ package org.techtwon.hello;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -27,6 +28,17 @@ public class SampleCallIntent extends AppCompatActivity {
                 String data =editText.getText().toString();
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse(data));
                 startActivity(intent);
+            }
+        });
+
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent2 = new Intent();
+                ComponentName name = new ComponentName("org.techtwon.hello","org.techtwon.hello.MenuActivity3");
+                intent2.setComponent(name);
+                startActivityForResult(intent2,101);
             }
         });
     }
