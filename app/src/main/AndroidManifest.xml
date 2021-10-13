@@ -10,21 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
         <activity
-            android:name=".MenuActivity4"
-            android:exported="true" />
-        <activity
-            android:name=".SampleParcelable"
-            android:exported="true" />
-        <activity
-            android:name=".MenuActivity3"
-            android:exported="true" />
-        <activity
             android:name=".MenuActivity2"
             android:exported="true"
             android:label="메뉴 액티비티"
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity
-            android:name=".SampleCallIntent"
+            android:name=".SampleParcelable"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true">
             <intent-filter>
