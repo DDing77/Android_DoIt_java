@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
+<!--        <activity-->
+<!--            android:name="org.techtwon.hello.SampleFragment"-->
+<!--            android:exported="true" />-->
         <activity
-            android:name=".SampleParcelable"
+            android:name="org.techtwon.hello.SampleFragment"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true">
             <intent-filter>
